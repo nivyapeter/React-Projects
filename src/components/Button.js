@@ -3,7 +3,7 @@ import React from "react";
 function Button({text, className}) {
   return (
     <div>
-      <button class={`text-white font-bold py-2 px-4 ${className}`} >
+      <button class={`font-bold py-2 px-4 ${className}`} >
         {text}
       </button>
     </div>

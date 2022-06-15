@@ -1,3 +1,4 @@
+import Algorithm from "./images/Algorithm.png";
 const whiteCardItems = [{
     text:"Preparation Kits",
     title:"Interview Preparation Kit",
@@ -10,4 +11,64 @@ const whiteCardItems = [{
     subTitle:"Explore and add your first skill to get started. HackerRank offers a variety of skills, tracks and tutorials for you to learn and improve.",
 },
 ]
-export default whiteCardItems
+const Topics = [
+    {
+        image:Algorithm,
+        text:"Algorithms"
+    },
+    {
+        image:Algorithm,
+        text:"Algorithms"
+    },
+    {
+        image:Algorithm,
+        text:"Algorithms"
+    },
+    {
+        image:Algorithm,
+        text:"Algorithms"
+    },
+    {
+        image:Algorithm,
+        text:"Algorithms"
+    },
+    {
+        image:Algorithm,
+        text:"Algorithms"
+    },
+    {
+        image:Algorithm,
+        text:"Algorithms"
+    },
+    {
+        image:Algorithm,
+        text:"Algorithms"
+    },
+    {
+        image:Algorithm,
+        text:"Algorithms"
+    },
+    {
+        image:Algorithm,
+        text:"Algorithms"
+    },
+    {
+        image:Algorithm,
+        text:"Algorithms"
+    },
+    {
+        image:Algorithm,
+        text:"Algorithms"
+    },
+    {
+        image:Algorithm,
+        text:"Algorithms"
+    },
+    {
+        image:Algorithm,
+        text:"Algorithms"
+    },
+]
+
+const footerItems=["Contest Calendar","Blog","Scoring","Environment","FAQ","About Us","Support","Careers","Terms Of Service","Privacy Policy","Request a Feature"]
+export {whiteCardItems,Topics,footerItems}
