@@ -5,11 +5,11 @@ function Partners() {
   return (
     <div className="py-[50px] bg-white ">
     <div className="py-[30px] w-[80%] m-auto max-w-[1080px]">
-        <h2 className="text-3xl text-black text-center font-extrabold">
+        <h2 className="text-4xl text-black text-center font-extrabold">
         Global Partners
         </h2>
       </div>
-      <div className="py-[30px] w-[80%] m-auto max-w-[1080px]">
+      <div className="py-[30px] w-[80%] m-auto max-w-[1080px] md:grid md:grid-cols-3">
         {partners.map((partner)=> {
             return (
                 <div className="mb-[30px]">

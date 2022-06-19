@@ -10,7 +10,7 @@ function Footer() {
   return (
     <div className="bg-[#0d005e] ">
       <div className="w-[80%] max-w-[1080px] m-auto text-left ">
-        <div className="py-[12%]">
+        <div className="py-[12%] md:grid md:grid-cols-2">
           {footerContents.map((footercontent) => {
             return (
               <div className="mb-[11.5%]">
@@ -66,7 +66,7 @@ function Footer() {
             </div>
 
         </div>
-        <div className="text-[#cccccc] w-[80%] max-w-[1080px] m-auto">
+        <div className="text-[#cccccc] w-[80%] max-w-[1080px] m-auto text-center pb-[10px]S">
         Women in Tech ® All rights reserved. Website by 
         <a className="text-[#cccccc] font-bold" href=""> Social Brain</a>
         </div>
