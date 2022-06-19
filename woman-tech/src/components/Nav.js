@@ -12,12 +12,12 @@ function Nav() {
     }
   return (
     <div>
-    <div className="float-left  text-white md:block hidden" >
+    <div className="float-left  text-white lg:block hidden" >
         <ul className="flex flex-row items-center">
             {navItems.map((navItem)=> {
                 return (
-                    <li className="text-sm pr-[22px] leading-4 pb-[35px] flex flex-row items-center">
-                    <a className="pr-5 font-bold uppercase text-base" href="" onClick={displayOnHover}>
+                    <li className="text-sm pr-[22px] lg:pr-[11px] leading-4 pb-[35px] flex flex-row items-center">
+                    <a className="pr-5 md:pr-2 font-bold uppercase text-base" href="" onClick={displayOnHover}>
                         {navItem.text}
                        
                     </a>

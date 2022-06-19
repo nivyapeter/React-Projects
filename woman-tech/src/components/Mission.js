@@ -11,10 +11,10 @@ function Mission() {
             </div>
            
         </div>
-        <div className="pt-[11px] bg-white max-w-[1080px] w-[80%] m-auto">
-            <div className="mb-[30px] w-full">
-            <iframe className="w-[80vw] h-[30vh]" src="https://player.vimeo.com/video/531777520?h=8d296c743f&dnt=1&app_id=122963"height="450"></iframe>
-            <iframe  className="w-[80vw] h-[30vh]" src="https://player.vimeo.com/video/531777520?h=8d296c743f&dnt=1&app_id=122963" width="540" height="450"></iframe>
+        <div className="pt-[11px] bg-white max-w-[1080px] w-[80%] m-auto ">
+            <div className="mb-[30px] w-full lg:flex lg:flex-row">
+            <iframe className="w-[80vw] md:w-[76vw] h-[30vh] md:h-[35vh] lg:h-[19vh]" src="https://player.vimeo.com/video/531777520?h=8d296c743f&dnt=1&app_id=122963"height="450"></iframe>
+            <iframe  className="w-[80vw] md:w-[76vw] h-[30vh] md:h-[35vh] lg:h-[19vh]" src="https://player.vimeo.com/video/531777520?h=8d296c743f&dnt=1&app_id=122963" width="540" height="450"></iframe>
             </div>
            
         </div>
