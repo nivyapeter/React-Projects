@@ -1,6 +1,6 @@
-// import carouselImg1 from "../images/carouselImg1.jpg";
-// import carouselImg2 from "../images/carouselImg2.jpg";
-// import carouselImg3 from "../images/carouselImg3.jpg";
+import carouselImg1 from "../images/carouselImg1.jpg";
+import carouselImg2 from "../images/carouselImg2.jpeg";
+import carouselImg3 from "../images/carouselImg3.jpg";
 import areaImg1 from "../images/areaImg1.png";
 import areaImg2 from "../images/areaImg2.png";
 import areaImg3 from "../images/areaImg3.png";
@@ -37,4 +37,4 @@ import partner15 from "../images/partner15.png";
 
 
 
-export { areaImg1,areaImg2,areaImg3,areaImg4,woman1,woman2,woman3,woman4,growingImg,News1,News2,News3,News4,News5,News6,News7,News8,News9 ,partner1,partner2,partner3,partner4,partner5,partner6,partner7,partner8,partner9,partner10,partner11,partner12,partner13,partner14,partner15};
+export { areaImg1,areaImg2,areaImg3,areaImg4,woman1,woman2,woman3,woman4,growingImg,News1,News2,News3,News4,News5,News6,News7,News8,News9 ,partner1,partner2,partner3,partner4,partner5,partner6,partner7,partner8,partner9,partner10,partner11,partner12,partner13,partner14,partner15,carouselImg1,carouselImg2,carouselImg3};

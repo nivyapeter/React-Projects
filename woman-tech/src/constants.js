@@ -4,6 +4,7 @@ import { HiChevronDown } from "react-icons/hi";
 import { areaImg1, areaImg2, areaImg3, areaImg4 } from "../src/images/index";
 import { woman1, woman2, woman3, woman4 } from "../src/images/index";
 import {News1,News2,News3,News4,News5,News6,News7,News8,News9} from "../src/images/index";
+import {carouselImg1,carouselImg2,carouselImg3} from "../src/images/index";
 import {partner1,partner2,partner3,partner4,partner5,partner6,partner7,partner8,partner9,partner10,partner11,partner12,partner13,partner14,partner15} from "../src/images/index"
 const headerContents = [
   {
@@ -155,17 +156,6 @@ const navItems = [
     text: "Donate",
   },
 ];
-// const image= [{
-//     image:carouselImg1,
-//  },
-//  {
-//     image:carouselImg2,
-//  },
-//  {
-//     image:carouselImg3,
-//  },
-
-// ]
 const areaItems = [
   {
     image: areaImg1,
@@ -476,6 +466,18 @@ const mobileContents = [{
 
 ]
 
+const bannerItems =[{
+  image:carouselImg1
+},
+{
+  image:carouselImg2
+},
+{
+  image:carouselImg3
+},
 
-export { headerContents, navItems, areaItems,womanCommunity,newsItems ,partners,footerContents,mobileContents};
+]
+
+
+export { headerContents, navItems, areaItems,womanCommunity,newsItems ,partners,footerContents,mobileContents,bannerItems};
 

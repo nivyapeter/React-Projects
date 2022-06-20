@@ -10,7 +10,6 @@ import MobileDropDown from './components/MobileDropDown';
 import News from './components/News';
 import Partners from './components/Partners';
 import Patronage from './components/Patronage';
-// import Slideshow from './components/Slideshow';
 import WomanCommunities from './components/WomanCommunities';
 import WomanTech from './components/WomanTech';
 
@@ -19,10 +18,10 @@ function App() {
     <div >
  
       <Header />
-      {/* <div className='relative'>
-     <Slideshow />
-     </div> */}
+     
       <Mission />
+      <div className='relative'>
+     </div>
       <Area />
       <WomanCommunities />
       <WomanTech />

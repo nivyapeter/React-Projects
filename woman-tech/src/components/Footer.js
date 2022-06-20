@@ -49,9 +49,9 @@ function Footer() {
                 </li>
             </ul>
         </div>
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col xl:flex-row-reverse items-center justify-center">
         <div className="bg-[#0d005e] pt-[15px] pb-[5px]">
-            <div className="w-[80%] max-w-[1080px] m-auto text-left">
+            <div className="w-[80%] max-w-[1080px] m-auto text-left xl:w-[40vw]">
                 <ul className="mb-[5px] flex flex-row text-2xl justify-center items-center fill-white text-white ">
                     <li className="ml-5">
                         <a href=""> <FaFacebookF/></a>
@@ -67,7 +67,7 @@ function Footer() {
             </div>
 
         </div>
-        <div className="text-[#cccccc] w-[80%] max-w-[1080px] m-auto text-center pb-[10px] lg:text-left">
+        <div className="text-[#cccccc] w-[80%] max-w-[1080px] m-auto text-center pb-[10px] lg:text-left xl:w-[40vw]">
         Women in Tech ® All rights reserved. Website by 
         <a className="text-[#cccccc] font-bold" href=""> Social Brain</a>
         </div>
