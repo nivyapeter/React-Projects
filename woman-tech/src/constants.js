@@ -155,7 +155,7 @@ const navItems = [
     text: "Donate",
   },
 ];
-// const imageBrands = [{
+// const image= [{
 //     image:carouselImg1,
 //  },
 //  {

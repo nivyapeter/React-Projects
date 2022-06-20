@@ -3,7 +3,7 @@ import React from "react";
 function WomanTech() {
   return (
     <div className="bg-[#ff3e1e] py-[50px] ">
-      <div className="py-[30px] max-w-[1080px] w-[80%] m-auto lg:flex lg:flex-row">
+      <div className="py-[30px] max-w-[1080px] w-[80%] m-auto lg:flex lg:flex-row  xl:gap-16">
         <div className="mb-[30px] w-full ">
           <div className="mb-[30px] text-left ">
             <h2 className="text-3xl text-white font-bold">
@@ -14,7 +14,7 @@ function WomanTech() {
           </div>
           <div>
             <iframe
-              className="w-[80vw] h-[26vh] md:w-[78vw] md:h-[31vh] lg:w-[47vw] lg:h-[24vh]"
+              className="w-[80vw] h-[26vh] md:w-[78vw] md:h-[31vh] lg:w-[47vw] lg:h-[24vh] xl:w-[36vw] xl:h-[41vh]"
               src="https://player.vimeo.com/video/531777520?h=8d296c743f&dnt=1&app_id=122963"
               height="450"
             ></iframe>

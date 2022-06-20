@@ -10,7 +10,7 @@ function TopWhite() {
     <div>
       <div className="w-full hidden lg:block max-w-full px-[30px] md:pt-3 font-semibold text-left lg:fixed bg-white">
         <div className="float-right flex flex-row items-center text-lg fil-[#15009b] ">
-          <ul className="mr-5 list-none flex flex-row ">
+          <ul className="mr-5 list-none flex flex-row pb-2">
             <li className="ml-3 mt-[-2px]">
               <a href="https://www.facebook.com/WomenInTechOrg/">
                 <AiFillFacebook />

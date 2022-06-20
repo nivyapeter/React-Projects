@@ -36,7 +36,7 @@ function News() {
           <a className="text-[#120e95] " href="">
             « Older Entries
           </a>
-          <div className="p-[12px] md:w-[20vw] md:m-auto  w-[33vw] m-auto ml-3 text-white bg-[#15009b] text-lg text-center">
+          <div className="p-[12px] md:w-[20vw] md:m-auto  w-[33vw] m-auto ml-3 text-white bg-[#15009b] text-lg text-center 2xl:w-[8vw]">
             <a href="">READ MORE</a>
           </div>
         </div>

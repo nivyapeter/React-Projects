@@ -4,14 +4,14 @@ import { areaItems } from "../constants";
 function Area() {
   return (
     <div className="bg-[#00f4cb] py-[50px]">
-      <div className="py-[30px] max-w-[1080px] w-[80%] m-auto">
+      <div className="py-[30px] max-w-[1080px] w-[80%] m-auto ">
         <div className="text-left mb-7">
           <h1 className="text-[#15009b] text-4xl font-extrabold ">
           More than a network, since 2018 Women in Tech® has directly impacted over 200.000 women across the world in 4 focus areas:
           </h1>
         </div>
       </div>
-      <div className="py-[30px] max-w-[1080px] w-[80%] m-auto md:grid md:grid-cols-2 lg:flex lg:flex-row">
+      <div className="py-[30px] max-w-[1080px] w-[80%] m-auto md:grid md:grid-cols-2 lg:flex lg:flex-row xl:gap-28">
         {areaItems.map((areaItem) => {
           return (
             <div className="mb-[30px]">

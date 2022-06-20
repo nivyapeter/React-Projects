@@ -2,7 +2,7 @@ import React from 'react'
 
 function Mission() {
   return (
-    <div className="pt-12 ">
+    <div className="pt-12 lg:pt-56">
         <div className="pt-[11px] bg-white max-w-[1080px] w-[80%] m-auto">
             <div className="text-left mb-7">
                 <h1 className="text-[#ff2f0e] text-3xl font-bold ">On a mission to Empower 5 million Women and Girls by 2030</h1>
