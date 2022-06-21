@@ -7,3 +7,6 @@
 .slick-dots li  button:before {
     font-size: 19px !important;
 }
+.slick-slider {
+    margin-top: 16px;
+}

@@ -13,7 +13,7 @@ function Properties({text,cardItems}) {
           </h2>
         </div>
       </div>
-      <div className="grid grid-cols-4">
+      <div className="grid md:grid-cols-2 grid-cols-1 lg:grid-cols-3 xl:grid-cols-4">
       {cardItems.map((cardItem)=>{
         return (
             <div className="px-[15px]">
@@ -27,9 +27,9 @@ function Properties({text,cardItems}) {
                 </div>
                 <div className="px-[15px] pb-[15px] text-center pt-[15px] ">
                   <a href="">
-                    <img className="h-[11vh] w-[12vw] m-auto pt-3" src={cardItem.image} alt="" />
+                    <img className="h-[11vh] w-[72vw] lg:w-[12vw] md:w-[23vw] m-auto pt-3" src={cardItem.image} alt="" />
                   </a>
-                  <p className="text-[#fff] bg-[#db831e] mb-2 w-[6vw] m-auto">{cardItem.place}</p>
+                  <p className="text-[#fff] bg-[#db831e] mb-2 w-[max-content] px-4 py-[2px] m-auto">{cardItem.place}</p>
                   <h6 className="uppercase text-center my-2 text-[#db831e]">
                     {cardItem.title}
                   </h6>

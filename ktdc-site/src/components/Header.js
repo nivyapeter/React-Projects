@@ -12,16 +12,16 @@ import {ImLinkedin2} from "react-icons/im"
 
 function Header() {
   return (
-    <div>
+    <div className="hidden lg:block">
       {/* black header */}
-      <div className="border-t-2 border-[#f1a93a] bg-[#3d3d3d] 2xl:px-[15px] 2xl:h-[6vh] xl:h-[9vh]  xl:pl-[10px]  xl:pr-[15px] hover:text-[#f1a93a]">
+      <div className="border-t-2 border-[#f1a93a] bg-[#3d3d3d] 2xl:px-[15px] 2xl:h-[6vh] lg:h-[9vh]  lg:pl-[10px]  lg:pr-[15px] hover:text-[#f1a93a]">
         <div className="max-w-[1360px] mx-auto my-[10px] px-[15px] w-full">
-          <ul className="my-0 mx-auto text-white flex flex-row items-center">
+          <ul className="my-0 mx-auto text-white flex flex-row items-center lg:gap-2 lg:whitespace-nowrap">
             {navItems?.map((navItem)=> {
               return (
                   <li>
                   <a
-                    className={`text-white text-[13px] py-[10px] px-[15px] uppercase hover:text-[#f1a93a] active:text-[#f1a93a] ${navItem.status && "text-[#f1a93a]"}`}
+                    className={`text-white text-[13px] py-[10px] px-[15px] lg:px-0 xl:px-[15px] uppercase hover:text-[#f1a93a] active:text-[#f1a93a] ${navItem.status && "text-[#f1a93a]"}`}
                     href=""
                   >{navItem.name}</a>
                 </li>
@@ -31,7 +31,7 @@ function Header() {
         </div>  
       </div>
       {/* white header */}
-      <div className="text-[#fff] py-[5px] h-11vh] bg-yellow-100">
+      <div className="text-[#fff] py-[5px] h-11vh] ">
         <div className="max-w-[1360px] mx-auto my-[10px] px-[15px] w-full">
           <div className=" flex flex-row justify-between items-center">
             <div className="max-w-[50%] px-[15px]">

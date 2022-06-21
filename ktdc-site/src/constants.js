@@ -237,6 +237,46 @@ const budgetHotels = [{
 },
 
 ]
+const footerData = [{
+    name:" Home ",
+},
+{
+    name:"  Packages  ",
+},
+{
+    name:"  Contact Us ",
+},
+{
+    name:"  Announcements  ",
+},{
+    name:"  Feedback  ",
+},
+{
+    name:"  Privacy Policy  ",
+},
+{
+    name:" User Agreement me ",
+},
+{
+    name:"  RTI  ",
+},
+{
+    name:"  RTS  ",
+},
+{
+    name:"  Rain Drops  ",
+},
+{
+    name:"  G.V. Raja Convention Centre  ",
+},
+{
+    name:" Bekal Beach Camp  ",
+},
+{
+    name:" Media  ",
+},
+
+]
 
 
-export { bannerItems,navItems,cardItems,budgetHotels};
+export { bannerItems,navItems,cardItems,budgetHotels,footerData};
