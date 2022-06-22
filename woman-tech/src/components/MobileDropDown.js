@@ -3,7 +3,7 @@ import { mobileContents } from '../constants'
 
 function MobileDropDown() {
   return (
-    <div className="bg-[#15009b] border-[#01efcc] border-t-2 w-[66vw] h-[max-content]  transition ease-out duration-150 absolute left-[16%]">
+    <div className="bg-[#15009b] border-[#01efcc] border-t-2 w-[66vw] h-[max-content] block lg:hidden transition ease-out duration-150 absolute left-[16%] z-30">
         <ul  className="p-[5%]">
             {mobileContents?.map((mobilecontent) => {
                 return(
